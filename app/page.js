@@ -1,3 +1,4 @@
-export default function Home() {
-  return <main>Hello</main>;
+import HomeContainer from "@/containers/home";
+export default function HomePage() {
+  return <HomeContainer/>;
 }
